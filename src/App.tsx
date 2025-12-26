@@ -11,7 +11,7 @@ function App() {
       <Snowfall color="red" />
       <img
         src={logo}
-        className="fixed -top-10 -left-7 h-40 w-40 sm:h-60 sm:w-60"
+        className="-top-10 -left-7 h-40 w-40 sm:h-60 sm:w-60"
         alt="Sirenelle Logo"
       />
 
