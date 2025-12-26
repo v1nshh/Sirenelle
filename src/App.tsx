@@ -7,8 +7,8 @@ import { FaInstagram, FaFacebook } from 'react-icons/fa';
 
 function App() {
   return (
-    <div className="min-h-screen bg-linear-to-br from-red-50 to-red-100 relative overflow-hidden">
-      <Snowfall color="red" />
+    <div className="min-h-screen bg-orange-100 relative overflow-hidden">
+      <Snowfall color="white" radius={[2,4]} speed={[1.5,2.0]} />
       <img
         src={logo}
         className="fixed -top-10 -left-7 h-40 w-40 sm:h-60 sm:w-60"
